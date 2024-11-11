@@ -6,10 +6,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import {environment} from '../environments/environment'
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import {environment} from '../environments/environment'
 import {getAuth,provideAuth} from '@angular/fire/auth'
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import {getStorage, provideStorage} from '@angular/fire/storage'
 
 @NgModule({
